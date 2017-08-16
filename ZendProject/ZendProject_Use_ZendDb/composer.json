@@ -1,0 +1,16 @@
+{
+    "name": "huy/zend-project_use_zend-db",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dvhuy160795",
+            "email": "dvhuy160795@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "robmorgan/phinx": "dev-master",
+        "zendframework/zendframework1": "^1.12@dev"
+    }
+}

@@ -1,0 +1,27 @@
+<br /><br />
+<div id="view-content">
+	<br /><br />
+<div id="view-content">
+	<p>Sửa thông tin người dùng</b></p>
+	<form method="post" action="<?php echo $this->url([
+			'controller'=>'user',
+			'action'=>'addcomplete',
+			'id'=>$this->user['id']
+	]); ?>">
+	<label>Tên người dùng:</label>
+		<input type="text"  name="user_name"><br>
+	<label>Pass word:</label>
+		<input type="text" name="user_pass"><br>
+	<label>Phone:</label>
+		<input type="text"  name="user_phone"><br>
+	<label>Address:</label>
+		<input type="text"  name="user_address"><br>
+	<label>Email:</label>
+		<input type="text"  name="user_email"><br>
+	<label>Age:</label>
+		<input type="text"  name="user_age"><br>
+		<input type="submit" value="Thêm bản ghi" name="btn_edit">
+	</form>
+	
+</div>
+</div>
